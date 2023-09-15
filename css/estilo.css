@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #fff;
+    font-size: 24px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #fa4f00;
+    box-shadow: 1px 1px 50px #03285f;
+    position: fixed;
+    
+}
+
+#menu{
+    width: 750px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #242424; 
+    text-decoration: none;
+    font: 16px;
+    padding: 15px 20px 19px 20px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+/*-----------------------------------------------Efecto Hover---------------------*/
+
+/*
+#menu ul a :hover{
+    color: #f2f2f2;
+    background: #6e6e6e;
+}
+*/
+#main{
+    background: #f9fff0;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+
+footer{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background: #000000;
+    font-size: 1 em;
+    color: #d9f5d5;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
